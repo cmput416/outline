@@ -37,13 +37,17 @@ Two lectures per week (Tuesdays and Thursdays). Lectures will include introducin
   * Final Presentation: 10%
   * Final Report: 25%
 
-## Course Plan
+## Schedule
 | Date | Lecture |
-| ---- | -------- |
-| Week 1 | Intro + Sample Analysis + Intermediate Representations |
-| Week 2 | Lattices + Data Flow Analysis Framework |
-| Week 3 | Call Graph Construction |
-| Week 4 | Pointer Analysis |
+| ---- | ------- |
+| Jan  8 | Intro + Sample Analyses |
+| Jan 10 | Intermediate Representations |
+| Jan 15 | Lattices and Fixpoints |
+| Jan 17 | Intra-procedural Dataflow Analysis |
+| Jan 22 | Type-based Call Graph Construction |
+| Jan 24 | Propagation-based Call Graph Construction |
+| Jan 29 | Pointer Analysis |
+| Jan 31 | Alias Analysis |
 | Week 5 | Inter-procedural Finite Distributed Subset prblems (IFDS) |
 | Week 6 | Inter-procedural Distributed Envorionment prolems (IDE) |
 | Week 7 | Non-distributive Program Analyses |
