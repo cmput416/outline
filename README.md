@@ -31,7 +31,7 @@ Two lectures per week (Tuesdays and Thursdays). Lectures will include introducin
 ## Evaluation
 * Assignments: 30%
 * Participation: 10%
-* Seminars: 20%
+* Paper Discussions: 20%
 * Course Project: 40%
   * Proposal: 5%
   * Final Presentation: 10%
@@ -40,20 +40,45 @@ Two lectures per week (Tuesdays and Thursdays). Lectures will include introducin
 ## Schedule
 | Date | Lecture |
 | ---- | ------- |
-| Jan  8 | Intro + Sample Analyses |
+| Jan 08 | Intro + Sample Analyses |
 | Jan 10 | Intermediate Representations |
 | Jan 15 | Lattices and Fixpoints |
-| Jan 17 | Intra-procedural Dataflow Analysis |
+| Jan 17 | Intra-procedural Analysis |
 | Jan 22 | Type-based Call Graph Construction |
 | Jan 24 | Propagation-based Call Graph Construction |
 | Jan 29 | Pointer Analysis |
 | Jan 31 | Alias Analysis |
-| Week 5 | Inter-procedural Finite Distributed Subset prblems (IFDS) |
-| Week 6 | Inter-procedural Distributed Envorionment prolems (IDE) |
-| Week 7 | Non-distributive Program Analyses |
-| Week 8 | Project Proposals |
-| Week 9 | Usability of Program Analysis Tools |
-| Week 10 | Paper Discussions |
-| Week 11 | Paper Discussions |
-| Week 12 | Paper Discussions |
-| Week 13 | Final Project Presentations |
+| Feb 05 | Grad Project Proposals |
+| Feb 07 | Inter-procedural Analysis |
+| Feb 12 | Context-Sensitivity with Call Strings Approach |
+| Feb 14 | Context-Sensitivity with Functional Approach |
+| Feb 19 | Reading Week |
+| Feb 21 | Reading Week |
+| Feb 26 | Inter-procedural Finite Distributed Subset problems (IFDS) |
+| Feb 28 | Inter-procedural Distributed Environment problems (IDE) |
+| Mar 05 | Non-Distributive Analyses |
+| Mar 07 | Usability of Program Analysis Tools |
+| Mar 12 | Undergrad Project Proposals |
+| Mar 14 | Undergrad Project Proposals |
+| Mar 19 | Paper Discussions |
+| Mar 21 | Paper Discussions |
+| Mar 26 | Paper Discussions |
+| Mar 28 | Paper Discussions |
+| Apr 02 | Paper Discussions |
+| Apr 04 | Paper Discussions |
+| Apr 09 | Project Presentations |
+| Apr 11 | Project Presentations |
+
+## Paper Discussions
+Most in-class paper discussions suffer from the lack of attention from most students except the presenter. To provide a more interactive environment for the paper discussions in this course, student will take the following roles:
+
+*   **Presenter** (20 mins): give a presentation about the paper.
+*   **Historian** (10 mins): position the paper in the context of related work (either prior to the paper, or later work that extends/critiques the paper). You will present your findings in class.
+*   **Reviewer** (10 mins): review the paper as if you are serving on the Program Committee. Tell us why the committee should accept/reject the paper. These are some useful links that contain tips on how to read and review academic papers: [link1](http://www.cgl.uwaterloo.ca/smann/Research/review-conference.txt), [link2](http://homes.cs.washington.edu/~mernst/advice/meier-paper.review.html), [link3](http://www.cl.cam.ac.uk/~ey204/teaching/ACS/R212_2015_2016/aid/stevens.pdf), [link4](http://library.queensu.ca/inforef/criticalreview.htm), [link5](http://cseweb.ucsd.edu/~wgg/CSE210/howtoread.html).
+*   **Researcher** (10mins): propose one project that extends or is inspired by the work discussed in the paper, and is related to your research area (for grad students). Pitch that project idea to us in class!
+*   **Validator** (20 mins): search for, download, and validate any artifacts that are published with the work (e.g., an official artifact, source code available on the internet, scripts to mine data/code, proofs, tools, survey data/methodology). If you can't find anything online, contact the authors. In class, you will walk us through your findings, and demo any tools that were published with the paper.
+*   **All students**: come up with one question about the core ideas presented in the paper, and pose that question during class.
+
+Each paper discussion will end with a 10-minute open discussion to open the floor to further questions from the audience.
+
+*Note: this structure is inspired by the [Machine Learning for Interactive Systems and Advanced Programming Tools Seminar at ETH](https://ait.ethz.ch/teaching/courses/2016-FS-ML-IS-PL/).*
