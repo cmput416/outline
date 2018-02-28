@@ -46,10 +46,10 @@ Two lectures per week (Tuesdays and Thursdays). Lectures will include introducin
 | Week 4 | Pointer Analysis |
 | Week 5 | Inter-procedural Finite Distributed Subset prblems (IFDS) |
 | Week 6 | Inter-procedural Distributed Envorionment prolems (IDE) |
-| Week 7 | |
-| Week 8 | |
-| Week 9 | |
-| Week 10 | |
-| Week 11 | |
-| Week 12 | |
-| Week 13 | |
+| Week 7 | Non-distributive Program Analyses |
+| Week 8 | Project Proposals |
+| Week 9 | Usability of Program Analysis Tools |
+| Week 10 | Paper Discussions |
+| Week 11 | Paper Discussions |
+| Week 12 | Paper Discussions |
+| Week 13 | Final Project Presentations |
