@@ -16,6 +16,11 @@ Answering any of those interesting questions about a program is undecidable as s
 
 This course will introduce the main concepts behind program analysis including intermediate representations, inter-procedural and intra-procedural analysis techniques, call graphs, pointer analysis, and analysis frameworks. We will also discuss some relevant research papers that introduce both classical and state-of-the-art research in the field. The course will give an overview of the program analyses that work and those that do not work in practice and how to design program analyses for modern software systems (e.g., Android).
 
+## Prerequisites
+- CMPUT 275 or CMPUT 201
+- CMPUT 229
+- CMPUT 272
+
 ## Reference Materials
 - Uday Khedker, Amitabha Sanyal, and Bageshri Karkare. Data Flow Analysis: Theory and Practice. CRC Press (Taylor and Francis Group). 2009.
 - Alfred V. Aho, Ravi Sethi, and Jeffrey D. Ullman. Compilers: Principles, Techniques, and Tools. Addison-Wesley. 2006. (https://www.library.ualberta.ca/catalog/2320584)
@@ -30,12 +35,11 @@ Two lectures per week (Tuesdays and Thursdays). Lectures will include introducin
 
 ## Evaluation
 * Assignments: 30%
-* Participation: 10%
-* Paper Discussions: 20%
+* Paper Discussions: 30%
 * Course Project: 40%
   * Proposal: 5%
-  * Final Presentation: 10%
-  * Final Report: 25%
+  * Presentation: 10%
+  * Report: 25%
 
 ## Schedule
 | Date | Lecture |
