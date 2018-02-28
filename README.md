@@ -41,6 +41,12 @@ Two lectures per week (Tuesdays and Thursdays). Lectures will include introducin
   * Presentation: 10%
   * Report: 25%
 
+## Important Deadlines
+* Assignment 1  : Jan 25 @ 5pm
+* Assignment 2  : Feb 15 @ 5pm
+* Assignment 3  : Mar 08 @ 5pm
+* Project Report: Apr 12 @ 5pm
+
 ## Schedule
 | Date | Lecture |
 | ---- | ------- |
