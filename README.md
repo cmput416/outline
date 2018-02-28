@@ -64,12 +64,12 @@ Two lectures per week (Tuesdays and Thursdays). Lectures will include introducin
 | Mar 07 | Usability of Program Analysis Tools |
 | Mar 12 | Undergrad Project Proposals |
 | Mar 14 | Undergrad Project Proposals |
-| Mar 19 | Paper Discussions |
-| Mar 21 | Paper Discussions |
-| Mar 26 | Paper Discussions |
-| Mar 28 | Paper Discussions |
-| Apr 02 | Paper Discussions |
-| Apr 04 | Paper Discussions |
+| Mar 19 | Paper Discussions (Usability) |
+| Mar 21 | Paper Discussions (Security) |
+| Mar 26 | Paper Discussions (Dynamic Languages) |
+| Mar 28 | Paper Discussions (Predictive Program Analysis) |
+| Apr 02 | Paper Discussions (Program Synthesis) |
+| Apr 04 | Paper Discussions (Probabilistic Programming) |
 | Apr 09 | Project Presentations |
 | Apr 11 | Project Presentations |
 
