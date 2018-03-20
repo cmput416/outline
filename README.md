@@ -1,4 +1,4 @@
-# CMPUT 4XX : Foundations of Program Analysis
+# CMPUT 497 : Foundations of Program Analysis
 
 ## Term: Winter 2019
 ## Course Weight: 3 credits
