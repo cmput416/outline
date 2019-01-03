@@ -13,4 +13,4 @@
 | 18.03–22.03 | | Paper Discussions (Usability) |  | Paper Discussions (Security) | | 
 | 25.03–29.03 | | Paper Discussions (Dynamic Languages) | | Paper Discussions (Predictive Program Analysis) | | 
 | 01.04–05.04 | | Paper Discussions (Program Synthesis) | | Paper Discussions (Probabilistic Programming) | | 
-| 08.04–12.04 | | Project Presentations | | Project Presentations | `Project Report` | 
+| 08.04–12.04 | | `Project Presentations` | | `Project Presentations` | `Project Report` | 
