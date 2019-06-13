@@ -1,6 +1,6 @@
 # CMPUT 497 : Foundations of Program Analysis
 
-## Term: Winter 2019
+## Term: Fall 2019
 ## Course Weight: 3 credits
 ## Instructor: [Karim Ali](http://karimali.ca)
 
