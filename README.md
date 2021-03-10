@@ -28,56 +28,144 @@ This course will introduce the main concepts behind program analysis including i
 - Steven S Muchnick and Neil D Jones. Program Flow Analysis: Theory and Applications, chapter 7, pages 189-233. 1981. (https://www.library.ualberta.ca/catalog/385204)
 - Flemming Nielson, Hanne Riis Nielson, and Chris Hankin. Principles of Program Analysis, 2005.
 - Benjamin C. Pierce. Types and Programming Languages. MIT Press. 2002.
-- Selected papers from [this reading list](https://github.com/staticanalysisseminar/resources/blob/master/papers.md).
+- Selected papers from [this reading list](https://github.com/cmput416/resources/blob/master/papers.md).
 
 ## Format
 Two lectures per week (Tuesdays and Thursdays). Lectures will include introducing new material, hands-on work with program analysis tools, and, later on in the course, paper discussions.
 
 ## Evaluation
-* Assignments: 30%
-* Paper Discussions: 30%
-* Course Project: 40%
-  * Proposal: 5%
-  * Presentation: 10%
-  * Report: 25%
+* Assignments: 35%
+* Paper Discussions: 20%
+* Course Project: 45%
+  * Proposal Presentation = 5%
+  * Proposal Document = 5%
+  * Final Presentation = 10%
+  * Final Document = 20%
+  * GitHub Repository = 5%
 
-## Important Deadlines
-* Assignment 1  : Jan 25 @ 5pm
-* Assignment 2  : Feb 15 @ 5pm
-* Assignment 3  : Mar 08 @ 5pm
-* Project Report: Apr 12 @ 5pm
-
-## Schedule
-| Date | Lecture |
-| ---- | ------- |
-| Jan 08 | Intro + Sample Analyses |
-| Jan 10 | Intermediate Representations |
-| Jan 15 | Lattices and Fixpoints |
-| Jan 17 | Intra-procedural Analysis |
-| Jan 22 | Type-based Call Graph Construction |
-| Jan 24 | Propagation-based Call Graph Construction |
-| Jan 29 | Pointer Analysis |
-| Jan 31 | Alias Analysis |
-| Feb 05 | Grad Project Proposals |
-| Feb 07 | Inter-procedural Analysis |
-| Feb 12 | Context-Sensitivity with Call Strings Approach |
-| Feb 14 | Context-Sensitivity with Functional Approach |
-| Feb 19 | Reading Week |
-| Feb 21 | Reading Week |
-| Feb 26 | Inter-procedural Finite Distributed Subset problems (IFDS) |
-| Feb 28 | Inter-procedural Distributed Environment problems (IDE) |
-| Mar 05 | Non-Distributive Analyses |
-| Mar 07 | Usability of Program Analysis Tools |
-| Mar 12 | Undergrad Project Proposals |
-| Mar 14 | Undergrad Project Proposals |
-| Mar 19 | Paper Discussions (Usability) |
-| Mar 21 | Paper Discussions (Security) |
-| Mar 26 | Paper Discussions (Dynamic Languages) |
-| Mar 28 | Paper Discussions (Predictive Program Analysis) |
-| Apr 02 | Paper Discussions (Program Synthesis) |
-| Apr 04 | Paper Discussions (Probabilistic Programming) |
-| Apr 09 | Project Presentations |
-| Apr 11 | Project Presentations |
+## Course Schedule
+<table border="1">
+    <thead>
+        <tr>
+            <th style="text-align:center">Week</th>
+            <th>Monday</th>
+            <th>Tuesday</th>
+            <th>Wednesday</th>
+            <th>Thursday</th>
+            <th>Friday</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td style="text-align:center">31.08--04.09</td>
+            <td></td>
+            <td><a href="https://youtu.be/bspS8eNgnkE" target="_blank">Intro</a></td>
+            <td></td>
+            <td><a href="https://youtu.be/-zyMw_0RmeY" target="_blank">Sample Analyses + Intermediate Representations</a></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td style="text-align:center">07.09--11.09</td>
+            <td></td>
+            <td><a href="https://youtu.be/YCNeXeL66WU" target="_blank">Intra-Procedural Analysis</a></td>
+            <td></td>
+            <td><a href="https://youtu.be/PqpN5vKvAT0" target="_blank">Lattice Theory 1</a></td>
+            <td><code>A1</code></td>
+        </tr>
+        <tr>
+            <td style="text-align:center">14.09--18.09</td>
+            <td></td>
+            <td><a href="https://youtu.be/WqEm5zn1zUM" target="_blank">Lattice Theory 2</a></td>
+            <td></td>
+            <td><a href="https://youtu.be/89aLM1et1ds" target="_blank">Monotone Flow Functions</a><br></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td style="text-align:center">21.09--25.09</td>
+            <td></td>
+            <td><a href="https://youtu.be/KGNkH7eHU_Y" target="_blank">Call Graph Construction</a></td>
+            <td></td>
+            <td><a href="https://youtu.be/8du-qmduhcQ" target="_blank">CG Hands-On</a><br></td>
+            <td><code>A2</code></td>
+        </tr>
+        <tr>
+            <td style="text-align:center">28.09--02.10</td>
+            <td></td>
+            <td><a href="https://youtu.be/OEFpWWnyVo4" target="_blank">Pointer Analysis</a><br></td>
+            <td></td>
+            <td><a href="https://youtu.be/Is9yqpNFQhQ" target="_blank">Inter-Procedural Analysis</a><br></td>
+            <td><code>A3</code></td>
+        </tr>
+        <tr>
+            <td style="text-align:center">05.10--09.10</td>
+            <td></td>
+            <td><a href="https://youtu.be/wgnbTv-kNAU" target="_blank">Context Sensitivity</a></td>
+            <td></td>
+            <td><a href="https://youtu.be/y7iLreS37MA" target="_blank">Inter-procedural Finite Distributed Subset problems (IFDS) 1</a></td>
+            <td><code>A4</code></td>
+        </tr>
+        <tr>
+            <td style="text-align:center">12.10--16.10</td>
+            <td></td>
+            <td><a href="https://youtu.be/lJbiwYa6mVM" target="_blank">IFDS 2</a><br></td>
+            <td></td>
+            <td><a href="https://youtu.be/76x95LO-NI0" target="_blank">Inter-procedural Finite Distributed Environment problems (IDE)</a><br></td>
+            <td><code>Proposal Document</code></td>
+        </tr>
+        <tr>
+            <td style="text-align:center">19.10--23.10</td>
+            <td></td>
+            <td><code>Proposal Presentations</code></td>
+            <td></td>
+            <td>Guest Lecture</td>
+            <td><code>A5</code></td>
+        </tr>
+        <tr>
+            <td style="text-align:center">26.10--30.10</td>
+            <td></td>
+            <td><code>Paper Seminars</code></td>
+            <td></td>
+            <td><code>Paper Seminars</code></a></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td style="text-align:center">02.11--06.11</td>
+            <td></td>
+            <td><code>Paper Seminars</code></td>
+            <td></td>
+            <td><code>Paper Seminars</code></td>
+            <td><code>A6</code></td>
+        </tr>
+        <tr>
+            <td style="text-align:center">09.11--13.11</td>
+            <td colspan="6" style="text-align:center"><strong>&lt;= Reading Week =&gt;</strong></td>
+        </tr>
+        <tr>
+            <td style="text-align:center">16.11--20.11</td>
+            <td></td>
+            <td><code>Paper Seminars</code></td>
+            <td></td>
+            <td><code>Paper Seminars</code></td>
+            <td><code>A7</code></td>
+        </tr>
+        <tr>
+            <td style="text-align:center">23.11--27.11</td>
+            <td></td>
+            <td><code>Paper Seminars</code></td>
+            <td></td>
+            <td><code>Paper Seminars</code></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td style="text-align:center">30.11--04.12</td>
+            <td></td>
+            <td><code>Final Presentations</code></td>
+            <td></td>
+            <td><code>Final Presentations</code></td>
+            <td><code>Final Report</code></td>
+        </tr>
+    </tbody>
+</table>
 
 ## Paper Discussions
 Most in-class paper discussions suffer from the lack of attention from most students except the presenter. To provide a more interactive environment for the paper discussions in this course, student will take the following roles:
