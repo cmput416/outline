@@ -1,6 +1,6 @@
 # CMPUT 416 : Foundations of Program Analysis
 
-## Term: Fall 2020
+## Term: Fall 2023
 ## Course Weight: 3 credits
 ## Instructor: [Karim Ali](http://karimali.ca)
 
@@ -18,7 +18,6 @@ This course will introduce the main concepts behind program analysis including i
 
 ## Prerequisites
 - CMPUT 275 or CMPUT 201
-- CMPUT 229
 - CMPUT 272
 
 ## Reference Materials
